@@ -68,31 +68,31 @@ img {
 }
 
 .container {
-	max-width: 960px;
-/* 	overflow: hidden; */
+	max-width: 968px;
+	overflow: hidden;
 }
 .E{
 	float: left;
-	margin-right: 650px;
 	margin-bottom: 50px;
 }
 .F, .G, .H, .I {
-	float: left;
+	float: right;
 	margin-right: 10px;
-	margin-top: 120px;
+	margin-top: 110px;
 }
 .J{
-	float: left;
+	float: right;
 	margin-right: 5px;
-	margin-top: 135px;
+	margin-top: 125px;
 	margin-left: 15px;
 }
 .K{
-	float: left;
-	margin-top: 95px;
-
+	float: right;
+	margin-top: 90px;
+	margin-right: 30px;
 }
 .MP{
+	float: left;
 	margin-left:90px;
 	margin-top: 90px;
 	margin-bottom: 90px;
@@ -106,24 +106,13 @@ img {
 
 }
 @media screen and (min-width: 768px) {
-	.E{
-		margin-right: 100px;
-		margin-bottom: 30px;
-	}
+	
 	.MP{
 		margin-top: 30px;
 		margin-left: 30px;
 		margin-bottom: 30px;
 	}
-	.F, .G, .H, .I {
-		margin-top: 80px;
-	}
-	.J{
-		margin-top: 95px;
-	}
-	.K{
-		margin-top: 55px;
-	}
+	
 
 }
 @media screen and (max-width: 320px) {
@@ -131,13 +120,10 @@ img {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	.E{
-		margin-bottom: 20px;
-	}
 	.MP{
-		margin-left: 10px;
-		margin-top: 5px;
-		margin-bottom: 10px;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-bottom: 0px;
 	}
 	.s-hide{
 		display: none;
@@ -146,6 +132,13 @@ img {
 article{
 	padding: 30px 30px 30px 30px;
 }
+/*
+@media screen and (max-width: 320px){
+	article{
+		padding:10px;
+	}
+}
+*/
 header {
 	padding-top: 20px;
 	background-color: #ffffff;
@@ -208,9 +201,11 @@ header {
 		}
 }
 .row {
-	margin-left:  40px;
+	margin-left:  0px;
 }
-
+.col{
+	padding: 0px;
+}
 
 .col-xs-11 {width: 91.662%}
 .col-xs-10 {width: 83.332%;}
@@ -289,3 +284,6 @@ header {
 .group {
 	zoom: 1;
 } */
+
+@media (max-width: 1280px){
+}
